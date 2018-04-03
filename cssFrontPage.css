@@ -1,0 +1,182 @@
+.titelDiv{
+    font-family: Arial;
+    font-weight: bold;
+    background-color: #178fd7;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 15px;  
+    
+}
+
+.body{
+    text-decoration: none;
+    background: url('img/finance.jpg') fixed no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    height: 100%;    
+}    
+.SignUpDiv{
+    background-color: rgba(0,119,192,0.5);
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    transform: translate(50px,40px);
+    position: fixed;
+    padding: 30px 30px;
+    text-align: center;
+    
+}
+.maakRekeningDiv{
+    background-color: rgba(0,119,192,0.8);
+    width: 300px;
+    height: 250px;
+    transform: translate(475px,40px);
+    position: fixed;
+    float: right;
+    border-radius: 15px;
+    padding: 30px 30px;
+    text-align: center;
+}    
+.transactieDiv{
+    background-color: rgba(0,119,192,0.5);
+    width: 300px;
+    height: 250px;
+    transform: translate(900px,40px);
+    position: fixed;
+    border-radius: 15px;
+    padding: 30px 30px;
+    text-align: center;
+   
+}    
+
+.signUpText{
+    font-family: Arial;
+    font-weight: bold;
+    
+}
+.transactieTitel{
+    font-family: Arial;
+    font-weight: bold;
+}
+.aanmeldTitel{
+    font-family: Arial;
+    font-weight: bold;
+     
+}
+
+.buttonCss{
+    
+	-moz-box-shadow: 0px 10px 14px -7px #276873;
+	-webkit-box-shadow: 0px 10px 14px -7px #276873;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+	background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+	background-color:#599bb3;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.buttonCss:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+	background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+	background-color:#408c99;
+}
+.buttonLoginCss:active {
+	position:relative;
+	top:1px;
+}
+
+.buttonLoginCss{
+    
+	-moz-box-shadow: 0px 8px 10px -7px #276873;
+	-webkit-box-shadow: 0px 8px 10px -7px #276873;
+	box-shadow: 0px 8px 10px -7px #276873;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+	background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+	background-color:#599bb3;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:4px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.buttonLoginCss:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+	background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+	background-color:#408c99;
+}
+.buttonLoginCss:active {
+	position:relative;
+	top:1px;
+}
+.PoweredByDiv{
+    transform: translate(0px, 520px);
+    font-family: Arial;
+    font-weight: bolder;
+    text-align: center;
+    vertical-align: middle;
+    height: 50px;
+}
+.logos{
+    width: 100%;
+    transform: translate(250px, 520px);
+    height: 100px;
+}
+
+.tableLogos{
+    border-width: 6px;
+    border-radius: 5px;
+    border-color: powderblue;
+    border-style: ridge;
+    
+}
+.loginDiv{
+    height: 50px;
+    width: 100%;
+}
+.welkom{
+    background-color: rgba(55,175,247,0.5);
+    font-family: Arial;
+    font-weight: bolder;
+    text-align: center;
+    vertical-align: middle;
+    height: 50px; 
+}
